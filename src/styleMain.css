@@ -1,0 +1,38 @@
+body{
+    background-image: url(/src/img/mainBack.jpg);
+    background-size: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.filmsDiv{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.filmCard{
+    margin: 0 auto;
+    margin: 15px 35px;
+    /* margin-bottom: 35px; */
+    /* width: 25%; */
+    min-width: 450px;
+    max-width: 450px;
+    height: 700px;
+    border: 1px solid black ;
+    border-radius: 25px;
+    -webkit-box-shadow: 0px 0px 83px -25px rgba(135,203,255,1);
+    -moz-box-shadow: 0px 0px 83px -25px rgba(135,203,255,1);
+    box-shadow: 0px 0px 83px -25px rgba(135,203,255,1);
+}
+.filmCard:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    transform: scale(1.05);
+    -webkit-box-shadow: 0px 0px 92px -10px rgba(252,36,36,1);
+    -moz-box-shadow: 0px 0px 92px -10px rgba(252,36,36,1);
+    box-shadow: 0px 0px 92px -10px rgba(252,36,36,1);
+
+}
+.img{
+    border-radius: 25px;
+}

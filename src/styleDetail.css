@@ -1,0 +1,103 @@
+body{
+    background-image: url(/src/img/detailBack.jpg);
+    background-size: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.mainDiv{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.imgDiv{
+    width: 50%;
+    min-width: 650px;
+    max-width: 650px;
+    height: 950px;
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.infoDiv{
+    width: 100%;
+}
+.titleDiv{
+    margin: 0 auto;
+    width: 100%;
+}
+.title{
+    margin: 0 auto;
+    width: fit-content;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: aliceblue;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+.info{
+    width: fit-content;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: aliceblue;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cadrDiv{
+    width: 942px;
+    height: 530px;
+    max-height: 530px;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.img{
+    border-radius: 10px;
+}
+.planetsContainer{
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.planetDiv{
+    color: black;
+    font-size: 20px;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    margin: 15px;
+    background-image: url(/src/img/planet.png);
+    -webkit-box-shadow: 0px 0px 61px -7px rgba(102,0,255,1);
+    -moz-box-shadow: 0px 0px 61px -7px rgba(102,0,255,1);
+    box-shadow: 0px 0px 61px -7px rgba(102,0,255,1);
+    border-radius: 50%;
+}
+.planetDiv:hover{
+    cursor: pointer;
+    transition: 0.7s;
+    transform: scale(1.15);
+    -webkit-box-shadow: 0px 0px 61px -7px rgba(0,150,30,1);
+    -moz-box-shadow: 0px 0px 61px -7px rgba(0,150,30,1);
+    box-shadow: 0px 0px 61px -7px rgba(0,150,30,1);
+}
+.planetTitle{
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 22px;
+    font-size: 28px;
+    background-color: white;
+    border-radius: 10px;
+}
+.planetText{
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    background-color: white;
+    border-radius: 10px;
+}
